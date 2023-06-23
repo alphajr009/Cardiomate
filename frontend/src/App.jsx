@@ -17,6 +17,7 @@ import Table from './components/Table';
 import Select from './pages/Select';
 import Userlogin from './pages/Userlogin';
 import UserHome from './pages/UserHome';
+import Chekup from './pages/Chekup';
 
 
 
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/select" element={<Select />} />
           <Route path="/userlogin" element={<Userlogin />} />
           <Route path="/userhome" element={<UserHome />} />
+          <Route path="/checkup" element={<Chekup />} />
 
         </Routes>
 

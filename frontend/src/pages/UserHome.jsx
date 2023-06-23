@@ -37,7 +37,7 @@ export default function UserHome() {
 
             <div className='viewplans2'>
 
-                <Button type='primary' style={{ background: '#FFA842', width: '142px', height: '49px', fontStyle: 'normal', fontWeight: 700, fontSize: "16px" }} >
+                <Button type='primary' style={{ background: '#FFA842', width: '142px', height: '49px', fontStyle: 'normal', fontWeight: 700, fontSize: "16px" }} onClick={() => window.location.href = "/checkup"}>
                     Check Up
                 </Button>
 
