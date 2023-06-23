@@ -1,0 +1,120 @@
+.Bottombar{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(0deg, #557AE5 0%, #0B1A47 100%);
+    box-shadow: 0px 4px 22px 13px rgba(0, 0, 0, 0.25);
+}
+
+.Cardilogo{
+    position: absolute;
+    left: 00.00;
+    right: 90.08%;
+    top: 5.21%;
+    bottom: 20.47%;
+}
+
+.policies{
+    position: absolute;
+    left: 29.70%;
+    right: 16.00%;
+    top: 20.61%;
+    bottom: 51.69%;
+
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.policiesCo{
+    position: absolute;
+    left: 28.90%;
+    right: 16.00%;
+    top: 40.61%;
+    bottom: 51.69%;
+
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.Services{
+    position: absolute;
+    left: 41.80%;
+    right: 6.00%;
+    top: 20.61%;
+    bottom: 51.69%;
+
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.ServicesCo{
+    position: absolute;
+    left: 41.00%;
+    right: 16.00%;
+    top: 40.61%;
+    bottom: 51.69%;
+
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.Find_Us{
+    position: absolute;
+    left: 55.70%;
+    right: 6.00%;
+    top: 20.61%;
+    bottom: 51.69%;
+
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.Find_UsCo{
+    position: absolute;
+    left: 55.00%;
+    right: 6.00%;
+    top: 40.61%;
+    bottom: 51.69%;
+
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.copy{
+    position: absolute;
+    left: 40.00%;
+    top: 90%;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.flogo{
+    position: absolute;
+    left: 72.58%;
+    right: 23.98%;
+    top: 50.21%;
+    bottom: 40.47%; 
+}
+
+.tlogo{
+    position: absolute;
+    left: 79.53%;
+    right: 17.03%;
+    top: 50.21%;
+    bottom: 40.47%; 
+}
+
+.ilogo{
+    position: absolute;
+    left: 86.48%;
+    right: 10.08%;
+    top: 50.21%;
+    bottom: 40.47%;
+}

@@ -1,0 +1,93 @@
+.home{
+    margin: auto;
+    display: flex;
+    width: auto;
+    height: 2763px;
+    background-color: #F5F7FE;
+}
+
+.rect{
+    position: absolute;
+    width: 100%;
+    height: 756px;
+    
+    box-shadow: 0px 4px 22px 13px rgba(0, 0, 0, 0.25);
+}
+
+.rect01{
+position: absolute;
+width: 312px;
+height: 202px;
+left: 400px;
+top: 368px;
+
+background: #444444;
+box-shadow: 18px 9px 18px 2px rgba(0, 0, 0, 0.25);
+border-radius: 25px 25px 0px 0px;
+}
+.rect02{
+    position: absolute;
+    width: 312px;
+    height: 202px;
+    left: 1150px;
+    top: 368px;
+    
+    background: #444444;
+    box-shadow: 18px 9px 18px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 0px 0px;
+}
+
+.rect11{
+    position: absolute;
+width: 312px;
+height: 101px;
+left: 400px;
+top: 570px;
+
+background: #FFA842;
+box-shadow: 18px 9px 18px 2px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 25px 25px;
+}
+
+.rect12{
+    position: absolute;
+width: 312px;
+height: 101px;
+left: 1150px;
+top: 570px;
+
+background: #FFA842;
+box-shadow: 18px 9px 18px 2px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 25px 25px;
+}
+
+.price1{
+    position: absolute;
+width: 227px;
+height: 32px;
+left: 455px;
+top: 595px;
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+.price2{
+    position: absolute;
+width: 227px;
+height: 32px;
+left: 1195px;
+top: 595px;
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}

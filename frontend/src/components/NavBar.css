@@ -1,0 +1,51 @@
+.navbar{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5%;
+
+}
+
+
+.Home{
+    position: absolute;
+    left: 55%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+.MyAccount{
+    position: absolute;
+    left: 63%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+.About{
+    position: absolute;
+    left: 73.75%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+.Support{
+    position: absolute;
+    left: 81%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+.Login{
+    position: absolute;
+    left: 90.50%;
+    top: 0%;
+
+}

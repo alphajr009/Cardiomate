@@ -1,0 +1,107 @@
+
+.qna {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 35%;
+    bottom: 20.38%;
+    margin: 0 auto;
+    width: calc(33.33% - 2rem);
+    height: 33.33vh;
+    background: #DDDDDD;
+    
+    
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+  }
+  
+  .qna header {
+      background-color: #333; /* set header background color */
+      border-radius: 50%; /* make the header a circle shape */
+      width: 200px; /* set the width of the header */
+      height: 200px; /* set the height of the header */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  .qna h1 {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      transform: translate(-50%, -50%);
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-color: #0F1F4F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 96px;
+      color: #DDDDDD;
+  
+    }
+  
+  
+  .qna p {
+    margin: 20px 0;
+    position: absolute;
+    left: 24.41%;
+    right: 11.46%;
+    top: 21%;
+    bottom: 47.31%;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 48px;
+  
+  color: #6D6D6D;
+  }
+  
+  .qna input[type="text"] {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    width: 60%;
+    position: absolute;
+    left: 24.41%;
+    right: 44.33%;
+    top: 62.37%;
+    bottom: 33.33%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  /* identical to box height */
+  
+  
+  color: #8B8B8B;
+  }
+  
+  .qna button {
+    position: absolute;
+  left: 79.08%;
+  right: 6.97%;
+  top: 82.8%;
+  bottom: 0%;
+  color: #DDDDDD;
+  background: #0F1F4F;
+  border-radius: 50%; /* makes the button circular */
+  width: 100px; /* set the width and height of the button to create a circular shape */
+  height: 100px;
+  }
+  
+  .qna button:hover {
+    background-color: #0F1F4F;
+  }
+  
+  

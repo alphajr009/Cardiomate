@@ -1,0 +1,130 @@
+.about{
+    background-color: #E0E7FB;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+.navbarabout{
+    position: absolute;
+    width: auto;
+    height: 2200px;
+    background-color: #F5F7FE;
+}
+
+.homepic{
+    position: absolute;
+    width: 100%;
+
+}
+
+.homelogo{
+    position: absolute;
+    width: 851px;
+    height: 263px;
+    left: 50%;
+    top: 229px;
+}
+
+.assistanttxt{
+
+    position: absolute;
+    width: 475px;
+    height: 111px;
+
+    /* text-align: center; */
+    right: 32%;
+    top: 503px;
+
+
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 1px 10px #000000;
+}
+
+.teamtxt{
+    position: absolute;
+    width: 227px;
+    height: 75px;
+    left: 43.5%;
+    top: 844px;
+
+    font-family: 'Lao Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 1px 10px #000000;
+}
+
+.p1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 77px;
+    top: 962px;
+}
+
+.p2{
+    position: absolute;
+    width: 139px;
+    height: 149px;
+    left: 407px;
+    top: 962px;
+}
+
+.p3{
+    position: absolute;
+    width: 178px;
+    height: 137px;
+    left: 706px;
+    top: 962px;
+}
+
+.p4{
+    position: absolute;
+    width: 224.84px;
+    height: 142.71px;
+    left: 1012.09px;
+    top: 963px;
+}
+
+.para{
+    position: absolute;
+    width: 1104px;
+    height: 239px;
+    left: 15%;
+    top: 1209px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #717171;
+}
+
+/* .rec{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 32.27%;
+    right: 32.27%;
+    top: 80%;
+    bottom: 20%;
+
+    background: #3A57AB;
+    border: 4px solid #FFFFFF;
+    box-shadow: 9px 10px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+} */
