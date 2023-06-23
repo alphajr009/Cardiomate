@@ -1,4 +1,4 @@
-.UserAccountReg{
+.UserAccountReg {
     position: relative;
     width: 100%;
     height: 1000px;
@@ -6,13 +6,13 @@
 }
 
 
-.navbarform{
+.navbarform {
     height: 137px;
     background: linear-gradient(180deg, #557AE5 42.17%, #0B1A47 100%);
     box-shadow: 0px 4px 22px 13px rgba(0, 0, 0, 0.25);
 }
 
-.table{
+.table {
     margin-top: 150px;
     margin-bottom: -200px;
     position: absolute;
@@ -28,7 +28,7 @@
     border-radius: 25px
 }
 
-.fullname{
+.fullname {
     position: absolute;
     left: 10%;
     top: 10%;
@@ -37,7 +37,7 @@
     color: black;
 }
 
-.Email{
+.Email {
     position: absolute;
     left: 10%;
     top: 20%;
@@ -46,7 +46,7 @@
     color: black;
 }
 
-.Username{
+.Username {
     position: absolute;
     left: 10%;
     top: 30%;
@@ -55,7 +55,7 @@
     color: black;
 }
 
-.Password{
+.Password {
     position: absolute;
     left: 10%;
     top: 40%;
@@ -64,7 +64,7 @@
     color: black;
 }
 
-.Con_Password{
+.Con_Password {
     position: absolute;
     left: 10%;
     top: 50%;
@@ -73,16 +73,17 @@
     color: black;
 }
 
-.NIC{
+.NIC {
     position: absolute;
-    left:55%;
+    left: 55%;
     top: 10%;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
-.docno{
+
+.docno {
     position: absolute;
     left: 55%;
     top: 20%;
@@ -91,60 +92,56 @@
     color: black;
 }
 
-.Pay{
+.Pay {
     position: absolute;
-    left:55%;
+    left: 55%;
     top: 30%;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
-.DB{
+.DB {
     position: absolute;
-    left:55%;
+    left: 55%;
     top: 40%;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
-.Contact{
+.Contact {
     position: absolute;
-    left:55%;
+    left: 55%;
     top: 50%;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
-.ch_box_sit{
+
+
+.Check {
     position: absolute;
-    left:42%;
-    right: 12%;
-    top: 20%;
-}
-.Check{
-    position: absolute;
-    left:10.5%;
+    left: 10.5%;
     top: 67.2555555%;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
-.Check_sen{
+.Check_sen {
     position: absolute;
-    left:15%;
+    left: 15%;
     top: 65.5%;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 }
 
-.sign{
+.sign {
     position: absolute;
     top: 80%;
-    left:27%;
+    left: 27%;
     right: 11.50%;
 }

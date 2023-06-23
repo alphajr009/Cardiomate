@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-.page{
+.page {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -12,41 +12,39 @@
 
 }
 
-.navbar{
+.navbar {
     position: absolute;
     left: 0%;
     right: 0%;
     top: 5%;
 }
 
-.cover{
+.cover {
     position: absolute;
-width: 355px;
-height: 489px;
-left: 760px;
-top: 250px;
+    width: 355px;
+    height: 489px;
+    left: 760px;
+    top: 250px;
 
-background: #FAFAFA;
-/* shadowcard */
+    background: #FAFAFA;
+    /* shadowcard */
 
-box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
 }
 
-.heading{
+.heading {
     position: absolute;
     left: 50px;
-    top: 100px;
     font-family: 'Arial';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
 
-color: #666666;
+    color: #666666;
 
-/* shadowcard */
+    /* shadowcard */
 
-text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
-
