@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -7,7 +7,7 @@
 }
 
 
-.Home{
+.Home {
     position: absolute;
     left: 55%;
     top: 0%;
@@ -16,7 +16,7 @@
 
 }
 
-.MyAccount{
+.MyAccount {
     position: absolute;
     left: 63%;
     top: 0%;
@@ -25,7 +25,16 @@
 
 }
 
-.About{
+.MyAccount2 {
+    position: absolute;
+    left: 73%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+.About {
     position: absolute;
     left: 73.75%;
     top: 0%;
@@ -34,7 +43,17 @@
 
 }
 
-.Support{
+.About2 {
+    position: absolute;
+    left: 83.75%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+
+.Support {
     position: absolute;
     left: 81%;
     top: 0%;
@@ -43,7 +62,16 @@
 
 }
 
-.Login{
+.Support2 {
+    position: absolute;
+    left: 91%;
+    top: 0%;
+
+    color: #000000;
+
+}
+
+.Login {
     position: absolute;
     left: 90.50%;
     top: 0%;

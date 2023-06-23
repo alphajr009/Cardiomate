@@ -16,6 +16,7 @@ import Report from './pages/Report';
 import Table from './components/Table';
 import Select from './pages/Select';
 import Userlogin from './pages/Userlogin';
+import UserHome from './pages/UserHome';
 
 
 
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="/newpatient" element={<Regpatient />} />
           <Route path="/select" element={<Select />} />
           <Route path="/userlogin" element={<Userlogin />} />
+          <Route path="/userhome" element={<UserHome />} />
 
         </Routes>
 

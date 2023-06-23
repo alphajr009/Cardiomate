@@ -62,8 +62,7 @@ export default function Regpvt() {
                 .then(response => {
                     // Handle the success response
                     console.log(response.data);
-                    // Show a success message to the user
-                    // Redirect or perform any additional actions
+                    window.location.href = '/userlogin';
                 })
                 .catch(error => {
                     // Handle the error response
