@@ -9,18 +9,6 @@ import frontarrow from '../photos/frontarrow.png'
 function Chekup() {
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     const [age, setAge] = useState('');
     const [sex, setSex] = useState('');
     const [chestPainType, setChestPainType] = useState('');
@@ -77,7 +65,6 @@ function Chekup() {
     const handleThalChange = (e) => {
         setthal(e.target.value);
     };
-
 
 
 
