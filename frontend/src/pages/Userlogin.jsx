@@ -56,7 +56,7 @@ export default function Userlogin() {
                     onChange={(e) => { setusername(e.target.value) }} />
 
                 <hr style={{ position: "absolute", width: "275px", left: "40px", top: "230px", filter: 'drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25))' }} />
-                <Input placeholder="Password" style={{ position: "absolute", width: "180px", left: "40px", top: "260px", filter: 'drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25))' }} bordered={false}
+                <Input placeholder="Password" type='password' style={{ position: "absolute", width: "180px", left: "40px", top: "260px", filter: 'drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25))' }} bordered={false}
                     value={password}
                     onChange={(e) => { setPassword(e.target.value) }} />
                 <hr style={{ position: "absolute", width: "275px", left: "40px", top: "290px", filter: 'drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25))' }} />

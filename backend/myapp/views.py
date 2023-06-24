@@ -129,7 +129,7 @@ def make_prediction(request):
         if prediction == 0:
             result = "You Are Safe!"
         else:
-            result = "Manujaya mahathata pin sidda wewaa!"
+            result = "You Are In Risk!"
 
         response = {
             "result": result,

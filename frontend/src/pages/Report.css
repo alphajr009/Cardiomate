@@ -1,9 +1,9 @@
-.navbarrep{
+.navbarrep {
     height: 120px;
     background-color: #575757;
 }
 
-.bbox{
+.bbox {
     position: absolute;
     height: 695px;
     width: 900px;
@@ -17,19 +17,19 @@
     border-radius: 35px;
 }
 
-.divide{
-    
-position: absolute;
-width: 582px;
-height: 0px;
-left: 150px;
-top: 343px;
+.divide {
 
-border: 5px solid #858585;
-transform: rotate(90deg);
+    position: absolute;
+    width: 582px;
+    height: 0px;
+    left: 150px;
+    top: 343px;
+
+    border: 5px solid #858585;
+    transform: rotate(90deg);
 }
 
-.title{
+.title {
     position: absolute;
     width: 500px;
     height: 45px;
@@ -45,37 +45,39 @@ transform: rotate(90deg);
 }
 
 
-.content{
+.content {
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 413px;
-    left: 515px;
+    left: 475px;
     top: 150px;
 
-    font-family: 'arial';
+    font-family: "Sansation-Regular";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 15px;
     text-align: justify;
 
     color: #575757;
 }
 
-.repimg{
+
+
+.repimg {
     position: relative;
     left: 35px;
     top: 50px;
 
 }
 
-.percentage{
+.percentage {
     position: absolute;
     margin-left: 195px;
     margin-top: -171px;
 }
 
-.result{
+.result {
     position: absolute;
     width: 275px;
     height: 116px;

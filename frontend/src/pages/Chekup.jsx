@@ -6,8 +6,13 @@ import './Home.css'
 import backarrow from '../photos/backarrow.png'
 import frontarrow from '../photos/frontarrow.png'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
-function Chekup() {
+
+
+function Chekup(props) {
+
+    const navigate = useNavigate();
 
 
     const [age, setAge] = useState('');
@@ -94,6 +99,10 @@ function Chekup() {
 
             console.log(result);
             console.log(probability);
+
+            if (response.status === 200) {
+                navigate('/report', { state: { result, probability } });
+            }
         } catch (error) {
             console.error(error);
         }
