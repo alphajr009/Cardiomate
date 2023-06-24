@@ -14,6 +14,12 @@ import Regpvt from './pages/Regpvt';
 import Regpatient from './pages/Regpatient'
 import Report from './pages/Report';
 import Table from './components/Table';
+import Select from './pages/Select';
+import Userlogin from './pages/Userlogin';
+import UserHome from './pages/UserHome';
+import Chekup from './pages/Chekup';
+
+
 
 
 export default function App() {
@@ -34,6 +40,11 @@ export default function App() {
           <Route path="/registerusr" element={<Regpvt />} />
           <Route path="/report" element={<Report />} />
           <Route path="/newpatient" element={<Regpatient />} />
+          <Route path="/select" element={<Select />} />
+          <Route path="/userlogin" element={<Userlogin />} />
+          <Route path="/userhome" element={<UserHome />} />
+          <Route path="/checkup" element={<Chekup />} />
+
         </Routes>
 
       </Router>
