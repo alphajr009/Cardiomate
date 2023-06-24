@@ -5,6 +5,7 @@ import { Input, Radio } from 'antd'
 import './Home.css'
 import backarrow from '../photos/backarrow.png'
 import frontarrow from '../photos/frontarrow.png'
+import axios from 'axios';
 
 function Chekup() {
 
@@ -65,6 +66,37 @@ function Chekup() {
     const handleThalChange = (e) => {
         setthal(e.target.value);
     };
+
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            const response = await axios.post('http://localhost:8000/test/makeprediction', {
+                age: age,
+                sex: sex,
+                chestPainType: chestPainType,
+                bloodpress: bloodpress,
+                cholesterol: cholesterol,
+                sugarlevel: sugarlevel,
+                electrocardiogram: electrocardiogram,
+                heartRate: heartRate,
+                angina: angina,
+                stdepress: stdepress,
+                stsegment: stsegment,
+                vessels: vessels,
+                thal: thal
+            });
+
+            const { result, probability } = response.data;
+
+            console.log(result);
+            console.log(probability);
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
 
 
 
@@ -635,6 +667,7 @@ function Chekup() {
                                             <div className='createblog-slide1-button'>
                                                 <button
                                                     className="hsc-getins-b-button "
+                                                    onClick={handleSubmit}
 
                                                 >
                                                     <img className='hsc-getins-b-button-img' src={frontarrow} />
