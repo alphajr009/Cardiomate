@@ -30,43 +30,73 @@ print("Accuracy:", accuracy)
 
 
 @csrf_exempt
-def make_prediction(request):
-    if request.method == "POST":
-        # Retrieve the user input from the request
-        user_input = [
-            int(request.POST.get("age")),
-            int(request.POST.get("sex")),
-            int(request.POST.get("chestPainType")),
-            float(request.POST.get("bloodpress")),
-            float(request.POST.get("cholesterol")),
-            int(request.POST.get("sugarlevel")),
-            int(request.POST.get("electrocardiogram")),
-            float(request.POST.get("heartRate")),
-            int(request.POST.get("angina")),
-            float(request.POST.get("stdepress")),
-            int(request.POST.get("stsegment")),
-            int(request.POST.get("vessels")),
-            int(request.POST.get("thal")),
-        ]
+def make_prediction_logic(
+    age,
+    sex,
+    chest_pain_type,
+    blood_press,
+    cholesterol,
+    sugar_level,
+    electrocardiogram,
+    heart_rate,
+    angina,
+    st_depress,
+    st_segment,
+    vessels,
+    thal,
+):
+    # Retrieve the user input from the request
+    print("Predict.model.py")
 
-        # Perform prediction on user input
-        prediction = model.predict([user_input])
-        probability = model.predict_proba([user_input])[0][1] * 100
+    print(age)
+    print(sex)
+    print(chest_pain_type)
+    print(blood_press)
+    print(cholesterol)
+    print(sugar_level)
+    print(electrocardiogram)
+    print(heart_rate)
+    print(angina)
+    print(st_depress)
+    print(st_segment)
+    print(vessels)
+    print(thal)
 
-        if prediction[0] == 0:
-            result = "You Are Safe!"
-        else:
-            result = "You Are In Risk!"
+    user_input = [
+        int(age),
+        int(sex),
+        int(chest_pain_type),
+        float(blood_press),
+        float(cholesterol),
+        int(sugar_level),
+        int(electrocardiogram),
+        float(heart_rate),
+        int(angina),
+        float(st_depress),
+        int(st_segment),
+        int(vessels),
+        int(thal),
+    ]
 
-        # Return the prediction result as a JSON response
-        response_data = {
-            "result": result,
-            "probability": probability,
-        }
-        return JsonResponse(response_data)
+    # # Perform prediction on user input
+    prediction = model.predict([user_input])
+    probability = model.predict_proba([user_input])[0][1] * 100
+
+    if prediction == 0:
+        result = "You Are Safe!"
+    else:
+        result = "You Are In Risk!"
+
+    # Return the prediction result as a JSON response
+    response_data = {
+        "result": result,
+        "probability": probability,
+    }
+    # return JsonResponse(response_data)
+    return result, probability
 
     # Return an error response if the request method is not POST
-    return JsonResponse({"error": "Invalid request method"})
+    # return JsonResponse({"error": "Invalid request method"})
 
 
 # Example usage: make_prediction(request)

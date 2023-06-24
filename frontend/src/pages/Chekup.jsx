@@ -72,7 +72,7 @@ function Chekup() {
         event.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:8000/test/makeprediction', {
+            const requestData = {
                 age: age,
                 sex: sex,
                 chestPainType: chestPainType,
@@ -86,7 +86,9 @@ function Chekup() {
                 stsegment: stsegment,
                 vessels: vessels,
                 thal: thal
-            });
+            };
+
+            const response = await axios.post('http://localhost:8000/test/makeprediction', requestData);
 
             const { result, probability } = response.data;
 
@@ -96,6 +98,7 @@ function Chekup() {
             console.error(error);
         }
     };
+
 
 
 
